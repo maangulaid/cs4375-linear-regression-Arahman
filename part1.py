@@ -35,4 +35,30 @@ x_train, x_test, y_train, y_test = train_test_split(
     )
 
 
-print(df.tail())
+##print(df.tail())
+
+# parameters 
+learning_rate =  0.02
+num_iteration = 1000
+
+m,n = x_train.shape
+
+
+# wights and bias 
+#bias a constant number added to shift the prediction up/down
+
+w=np.zeros(n)
+b=0
+
+
+#let do the trainning here 
+#remeber x_train is the input data
+train_log = []
+
+for i in range(num_iteration):
+    # Predict: y_hat = Xw + b
+    y_hat = np.dot(x_train, w) + b
+
+y_test_pred = np.dot(x_test, w) + b
+test_mse = np.mean((y_test_pred - y_test) ** 2)
+print(f"\nFinal Test MSE: {test_mse:.4f}")
