@@ -38,7 +38,7 @@ x_train, x_test, y_train, y_test = train_test_split(
 ##print(df.tail())
 
 # parameters 
-learning_rate =  0.02
+learning_rate =  0.17
 num_iteration = 1000
 
 m,n = x_train.shape
@@ -58,7 +58,67 @@ train_log = []
 for i in range(num_iteration):
     # Predict: y_hat = Xw + b
     y_hat = np.dot(x_train, w) + b
+    
+    # Step 1: Compute error
+    error = y_hat - y_train
+
+    # Step 2: Compute gradients
+    dw = (2/m) * np.dot(x_train.T, error)
+    db = (2/m) * np.sum(error)
+
+    # Step 3: Update weights and bias
+    w -= learning_rate * dw
+    b -= learning_rate * db
+
+    # Step 4: Calculate and store MSE
+    mse = np.mean(error ** 2)
+    train_log.append(mse)
 
 y_test_pred = np.dot(x_test, w) + b
 test_mse = np.mean((y_test_pred - y_test) ** 2)
 print(f"\nFinal Test MSE: {test_mse:.4f}")
+
+
+plt.plot(train_log)
+plt.xlabel("Iteration")
+plt.ylabel("Training MSE")
+plt.title("MSE vs Iterations")
+plt.show()
+
+
+if i % 100 == 0:
+    print(f"Iteration {i}: Training MSE = {mse:.4f}")
+
+
+
+import csv
+import os
+
+# Compute final training MSE from the last iteration
+final_train_mse = train_log[-1]  # last logged training MSE
+
+# Log file name
+log_file = "logs.csv"
+
+# Save training MSE plot as image
+plot_filename = "mse_plot.png"
+plt.plot(train_log)
+plt.xlabel("Iteration")
+plt.ylabel("Training MSE")
+plt.title("MSE vs Iterations")
+plt.grid(True)
+plt.savefig(plot_filename)
+plt.close()
+print(f"Saved plot as {plot_filename}")
+
+# Append summary to report.txt
+with open("report.txt", "a") as f:
+    f.write("\n\n")
+    f.write("CS4375 Assignment 1 – Trial Report\n")
+    f.write("===================================\n")
+    f.write(f"Learning Rate     : {learning_rate}\n")
+    f.write(f"Iterations        : {num_iteration}\n")
+    f.write(f"Final Train MSE   : {final_train_mse:.4f}\n")
+    f.write(f"Final Test MSE    : {test_mse:.4f}\n")
+    f.write(f"MSE Plot Saved As : {plot_filename}\n")
+    f.write("===================================\n")
