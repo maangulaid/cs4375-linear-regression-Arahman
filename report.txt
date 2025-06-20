@@ -1,0 +1,181 @@
+CS4375 Assignment 1 ï¿½ Trial Report
+===================================
+Learning Rate     : 0.01
+Iterations        : 1000
+Final Train MSE   : 4.1429
+Final Test MSE    : 3.9229
+MSE Plot Saved As : mse_plot.png
+===================================
+
+Note: MSE vs Iterations plot saved. Include it in your final report.
+
+
+
+CS4375 Assignment 1 ï¿½ Trial Report
+===================================
+Learning Rate     : 0.02
+Iterations        : 1000
+Final Train MSE   : 3.0237
+Final Test MSE    : 2.8548
+MSE Plot Saved As : mse_plot.png
+===================================
+
+
+CS4375 Assignment 1 ï¿½ Trial Report
+===================================
+Learning Rate     : 0.05
+Iterations        : 1000
+Final Train MSE   : 2.5107
+Final Test MSE    : 2.3869
+MSE Plot Saved As : mse_plot.png
+===================================
+
+
+CS4375 Assignment 1 – Trial Report
+===================================
+Learning Rate     : 0.08
+Iterations        : 1000
+Final Train MSE   : 2.2819
+Final Test MSE    : 2.1713
+MSE Plot Saved As : mse_plot.png
+===================================
+
+
+CS4375 Assignment 1 – Trial Report
+===================================
+Learning Rate     : 1
+Iterations        : 1000
+Final Train MSE   : nan
+Final Test MSE    : nan
+MSE Plot Saved As : mse_plot.png
+===================================
+
+
+CS4375 Assignment 1 – Trial Report
+===================================
+Learning Rate     : 0.1
+Iterations        : 1000
+Final Train MSE   : 2.1574
+Final Test MSE    : 2.0523
+MSE Plot Saved As : mse_plot.png
+===================================
+
+
+CS4375 Assignment 1 – Trial Report
+===================================
+Learning Rate     : 0.9
+Iterations        : 1000
+Final Train MSE   : nan
+Final Test MSE    : nan
+MSE Plot Saved As : mse_plot.png
+===================================
+
+
+CS4375 Assignment 1 – Trial Report
+===================================
+Learning Rate     : 0.5
+Iterations        : 1000
+Final Train MSE   : nan
+Final Test MSE    : nan
+MSE Plot Saved As : mse_plot.png
+===================================
+
+
+CS4375 Assignment 1 – Trial Report
+===================================
+Learning Rate     : 0.2
+Iterations        : 1000
+Final Train MSE   : 16480522722612091048795539441240675955753775850315691883991052727013262177484725294880233715091846992949760646597602993669385921333747302847598021800373879861571135953960154693632.0000
+Final Test MSE    : 26539461616165719452671849558432937714963010783043550933461640080854956826240106528194714891962327494192140657244972385752622950165192832014961849401622934322936530227545155567616.0000
+MSE Plot Saved As : mse_plot.png
+===================================
+
+
+CS4375 Assignment 1 – Trial Report
+===================================
+Learning Rate     : 0.19
+Iterations        : 1000
+Final Train MSE   : 358798833908069106525502793513867466059708747580597888620982822594475146392775045033344421068800.0000
+Final Test MSE    : 477559274979613257116977683606660063472466665890483376478307577949772665842831908648475084980224.0000
+MSE Plot Saved As : mse_plot.png
+===================================
+
+
+CS4375 Assignment 1 – Trial Report
+===================================
+Learning Rate     : 0.1
+Iterations        : 1000
+Final Train MSE   : 2.1574
+Final Test MSE    : 2.0523
+MSE Plot Saved As : mse_plot.png
+===================================
+
+
+CS4375 Assignment 1 – Trial Report
+===================================
+Learning Rate     : 0.13
+Iterations        : 1000
+Final Train MSE   : 2.0002
+Final Test MSE    : 1.9015
+MSE Plot Saved As : mse_plot.png
+===================================
+
+
+CS4375 Assignment 1 – Trial Report
+===================================
+Learning Rate     : 0.19
+Iterations        : 1000
+Final Train MSE   : 358798833908069106525502793513867466059708747580597888620982822594475146392775045033344421068800.0000
+Final Test MSE    : 477559274979613257116977683606660063472466665890483376478307577949772665842831908648475084980224.0000
+MSE Plot Saved As : mse_plot.png
+===================================
+
+
+CS4375 Assignment 1 – Trial Report
+===================================
+Learning Rate     : 0.15
+Iterations        : 1000
+Final Train MSE   : 1.9119
+Final Test MSE    : 1.8169
+MSE Plot Saved As : mse_plot.png
+===================================
+
+
+CS4375 Assignment 1 – Trial Report
+===================================
+Learning Rate     : 0.17
+Iterations        : 1000
+Final Train MSE   : 1.8350
+Final Test MSE    : 1.7430
+MSE Plot Saved As : mse_plot.png
+===================================
+
+
+CS4375 Assignment 1 – Trial Report
+===================================
+Learning Rate     : 0.19
+Iterations        : 1000
+Final Train MSE   : 358798833908069106525502793513867466059708747580597888620982822594475146392775045033344421068800.0000
+Final Test MSE    : 477559274979613257116977683606660063472466665890483376478307577949772665842831908648475084980224.0000
+MSE Plot Saved As : mse_plot.png
+===================================
+
+
+CS4375 Assignment 1 – Trial Report
+===================================
+Learning Rate     : 0.18
+Iterations        : 1000
+Final Train MSE   : 15166.6994
+Final Test MSE    : 16349.3211
+MSE Plot Saved As : mse_plot.png
+===================================
+
+
+CS4375 Assignment 1 – Trial Report
+===================================
+Learning Rate     : 0.17
+Iterations        : 1000
+Final Train MSE   : 1.8350
+Final Test MSE    : 1.7430
+MSE Plot Saved As : mse_plot.png
+===================================
