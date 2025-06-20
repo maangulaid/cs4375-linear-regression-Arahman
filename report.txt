@@ -8,3 +8,15 @@ R� Score         : 0.9991
 Explained Var     : 0.9991
 MSE Plot Saved As : mse_plot.png
 ===================================
+
+
+CS4375 Assignment 1 � Trial Report Part 2
+===================================
+Learning Rate     : 0.01
+Iterations        : 1000
+Final Train MSE   : 1.4617
+Final Test MSE    : 1.3713
+R� Score         : 0.9993
+Explained Var     : 0.9993
+Plot Saved As     : predicted_vs_actual_part2.png
+===================================
