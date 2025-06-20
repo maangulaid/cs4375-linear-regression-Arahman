@@ -6,7 +6,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('AirQualityUCI.csv', sep=';', decimal=',')
+#let get the data base from maangulaid github
+df = pd.read_csv('https://raw.githubusercontent.com/maangulaid/cs4375-linear-regression-Arahman/main/AirQualityUCI.csv', sep=';', decimal=',')
+
 
 # realised it has NAN or missing data let clean up more
 # #let clean up and remove unneccesary columns or rows
