@@ -1,22 +1,71 @@
-CS4375 Assignment 1 � Trial Report Part 1
-===================================
-Learning Rate     : 0.17
-Iterations        : 1000
-Final Train MSE   : 1.8350
-Final Test MSE    : 1.7430
-R� Score         : 0.9991
-Explained Var     : 0.9991
-MSE Plot Saved As : mse_plot.png
-===================================
+Final Report
+Arahman Gulaid
+CS 4375.5U1 - Introduction to Machine Learning
+Assignment 1
+==================================================================
+
+-> first part: linear Regression (part1.py)
 
 
-CS4375 Assignment 1 � Trial Report Part 2
-===================================
-Learning Rate     : 0.01
-Iterations        : 1000
-Final Train MSE   : 1.4617
-Final Test MSE    : 1.3713
-R� Score         : 0.9993
-Explained Var     : 0.9993
-Plot Saved As     : predicted_vs_actual_part2.png
-===================================
+
+Dataset Used:
+  - Air Quality Dataset from UCI ML Repository
+  - Public link: https://raw.githubusercontent.com/maangulaid/cs4375-linear-regression-Arahman/main/AirQualityUCI.csv
+
+Preprocessing Summary:
+ -Removed unnamed/missing columns
+ - Dropped null values
+ - drotted or removed the Date and time
+ - Standardized features using StandardScaler
+
+Parameter:
+  - Best Learning Rate -----> 0.17
+  - Iterations       -------> 1000
+  - Final Train MSE  -------> 1.8350
+  - Final Test MSE   -------> 1.7430
+  - R² Score         -------> 0.9991
+  - Explained Var    -------> 0.9991
+
+Evaluation:
+  - Model converged well with minimal error.
+  - Training loss decreased steadily (see mse_plot.png).
+  - High R² and Explained Variance show good generalization.
+
+Question:
+Are you satisfied that the pack-age has found the best solution?. How can you check?. Explain?
+
+Answer:
+
+Yes, I am satisfied the best solution was found.
+The error metrics are consistent, and no overfitting is evident.
+Multiple trials were conducted for tuning all the trails are in Trail_log.txt
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+Part2 : Linear Regression using Scikit-learn
+
+
+
+SGDRegressor Configuration:
+  - Learning Rate (eta0)-------> 0.17
+  - Max Iterations      -------> 1000
+  - Loss Function       -------> Squared Error
+  - Penalty             -------> None 
+
+Results:
+  - Final Train MSE     -------> 1.4617
+  - Final Test MSE      -------> 1.3713
+  - R² Score            -------> 0.9994
+  - Explained Variance  -------> 0.9994
+
+Question:
+Are you satisfied that the pack-age has found the best solution?. How can you check?. Explain?
+
+Answer:
+  Yes, the package found an optimal solution.
+  Results are slightly improved compared to manual GD implementation.
+  Scikit-learn leverages stochastic updates, which are more efficient.
+
+
+
+
